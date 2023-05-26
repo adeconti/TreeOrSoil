@@ -1,0 +1,5 @@
+dependencies:
+  - tensorflow
+  - numpy
+  - scikit-learn
+  - pillow
