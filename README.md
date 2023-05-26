@@ -12,6 +12,12 @@ Após essa etapa executar através de um terminal o seguinte código (em PowerSh
 //PS C:\Users\usuarioum\Documents\VENVTEST> .\ArvoreOuSolo\Scripts\activate
  ```
 Neste caso o comando instala o ambiente virtual no diretório C:\Users\usuarioum\Documents\VENVTEST. Seu terminal deve estar agora com o texto (ArvoreOuSolo) no início da linha de comando.
+Em Ubuntu o para ativar o ambiente virtual utilize:
+
+```bash
+source ArvoreOuSolo\bin\activate
+```
+
 Dentro do ambiente execute o seguinte comando para instalar as dependências:
 
 ```powershell
@@ -22,6 +28,7 @@ Para analisar o próprio conjunto de imagens, que devem ter 50 por 50 pixels e f
 ```powershell
 python AI.py
 ```
+Note que para Ubuntu pode ser necessário substituir para python por python3 nessa e em futuras ocorrências.
 Insira o caminho para o diretório de imagens.
 
 O programa deve executar e retornar um arquivo “results.csv” no mesmo diretório.
