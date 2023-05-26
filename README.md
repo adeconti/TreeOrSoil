@@ -22,7 +22,8 @@ Para analisar o próprio conjunto de imagens, que devem ter 50 por 50 pixels e f
 ```powershell
 python AI.py
 ```
-Insira o caminho para o diretório de imagens para análise.
+Insira o caminho para o diretório de imagens.
+
 O programa deve executar e retornar um arquivo “results.csv” no mesmo diretório.
 
 ## Treinamento da CNN
