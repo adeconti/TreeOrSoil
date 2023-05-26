@@ -3,8 +3,8 @@ Este código objetiva detectar a partir de fotos de satélite se as imagens cont
 
 ## Execução da CNN
 
-Para executar o script que faz a inferência de rede é necessário primeiro ter Python instalado, os arquivos para instalação estão no site oficial Python. Selecione o arquivo adequado para seu sistema operacional. Em Windows é necessário que adicione ao PATH no instalador.
-Após instalação buscar o repositório git e importa-lo através do terminal utilizando o comando. Caso não tenha git instalado há instruções no site oficial git:
+Para executar o script que faz a inferência de rede é necessário primeiro ter Python instalado, os arquivos para instalação estão no [site oficial Python](https://www.python.org/downloads/release/python-31011/). Selecione o arquivo adequado para seu sistema operacional. Em Windows é necessário que adicione ao PATH no instalador.
+Após instalação buscar o repositório git e importa-lo através do terminal utilizando o comando. Caso não tenha git instalado há instruções no [site oficial git](https://git-scm.com/downloads).
 Após essa etapa executar através de um terminal o seguinte código (em PowerShell) para criação de um ambiente virtual no diretório em que estiver localizado. 
 
 ```powershell
