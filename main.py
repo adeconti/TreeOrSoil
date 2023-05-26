@@ -5,7 +5,7 @@ from evaluate import evaluate_model
 
 def main():
     # Call the functions from other files here
-    directory_path = input("Escreva o diretório de trabalho: ")
+    directory_path = input("Escreva o diretório do conjunto de imagens: ")
 
     # Load images and labels using the load_images_from_directory function
     images, labels = load_images_from_directory(directory_path)
