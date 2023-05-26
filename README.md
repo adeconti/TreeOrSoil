@@ -30,6 +30,7 @@ python AI.py
 ```
 Note que para Ubuntu pode ser necessário substituir para python por python3 nessa e em futuras ocorrências.
 Insira o caminho para o diretório de imagens.
+Pode ser necessário utilizar barras duplas ('\\') para inserir o diretório.
 
 O programa deve executar e retornar um arquivo “results.csv” no mesmo diretório.
 
