@@ -5,14 +5,25 @@ Este código objetiva detectar a partir de fotos de satélite se as imagens cont
 
 Para executar o script que faz a inferência de rede é necessário primeiro ter Python instalado, os arquivos para instalação estão no [site oficial Python](https://www.python.org/downloads/release/python-31011/). Selecione o arquivo adequado para seu sistema operacional. Em Windows é necessário que adicione ao PATH no instalador.
 Após instalação buscar o repositório git e importa-lo através do terminal utilizando o comando. Caso não tenha git instalado há instruções no [site oficial git](https://git-scm.com/downloads).
+
+
+No terminal vá até a pasta selecionada para o repositório e digite
+```powershell
+git clone https://github.com/adeconti/TreeOrSoil
+```
 Após essa etapa executar através de um terminal o seguinte código (em PowerShell) para criação de um ambiente virtual no diretório em que estiver localizado. 
 
 ```powershell
-//PS C:\Users\usuarioum\Documents\VENVTEST> python -m venv ArvoreOuSolo
-//PS C:\Users\usuarioum\Documents\VENVTEST> .\ArvoreOuSolo\Scripts\activate
- ```
-Neste caso o comando instala o ambiente virtual no diretório C:\Users\usuarioum\Documents\VENVTEST. Seu terminal deve estar agora com o texto (ArvoreOuSolo) no início da linha de comando.
-Em Ubuntu o para ativar o ambiente virtual utilize:
+python -m venv ArvoreOuSolo
+```
+Para ativar o ambiente virtual em terminal powershell: 
+
+```powershell 
+.\ArvoreOuSolo\Scripts\activate
+```
+
+Neste caso o comando instala o ambiente virtual no diretório situado. Seu terminal deve estar agora com o texto (ArvoreOuSolo) no início da linha de comando.
+Em Ubuntu para ativar o ambiente virtual utilize:
 
 ```bash
 source ArvoreOuSolo\bin\activate
@@ -28,6 +39,7 @@ Para analisar o próprio conjunto de imagens, que devem ter 50 por 50 pixels e f
 ```powershell
 python AI.py
 ```
+
 Note que para Ubuntu pode ser necessário substituir para python por python3 nessa e em futuras ocorrências.
 Insira o caminho para o diretório de imagens.
 Pode ser necessário utilizar barras duplas ('\\') para inserir o diretório.
