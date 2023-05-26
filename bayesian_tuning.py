@@ -4,9 +4,9 @@ import optuna
 from preparing_image import load_images_from_directory
 from preprocess_data import preprocess
 
+directory_path = input("Escreva o diretório contendo o conjunto de dados de treinamento: ")
+
 def main():
-    # Call the functions from other files here
-    directory_path = input("Escreva o diretório de trabalho: ")
 
     # Load images and labels using the load_images_from_directory function
     images, labels = load_images_from_directory(directory_path)
